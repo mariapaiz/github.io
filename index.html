@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maria Paiz - Art and Character Design</title>
+
+
+    <!-- Bootstrap -->
+    <link href="/theme/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      .header {
+        margin-bottom: 30px;
+      }
+      .footer {
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+
+
+    </style>
+
+<style>
+  .item {
+    min-height: 200px;
+    position: relative;
+    padding-bottom: 15px;
+  }
+  .item img{
+    width: 100%;
+  }
+  .caption {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    padding: 1em;
+    font-weight: bold;
+    background-color: #333;
+    background-color: rgba(0,0,0, 0.8);
+  }
+  .caption a{
+    color: white;
+  }
+</style>
+
+  </head>
+  <body>
+    <div class="container-fluid
+">
+        <div class="header">
+          <nav>
+            <ul class="nav nav-pills pull-right">
+              <li role="presentation"><a href="/">Home</a></li>
+              <li role="presentation"><a href="/about.html">About / Contact</a></li>
+            </ul>
+          </nav>
+          <h3 class="text-muted">Maria Paiz - Art and Character Design</h3>
+        </div>
+
+  <div id="grid_container">
+  </div>
+
+  <script src="/theme/js/imagesloaded.pkgd.min.js"></script>
+  <script src="/theme/js/isotope.pkgd.min.js"></script>
+
+  <script>
+  var container = document.querySelector('#grid_container');
+
+  var iso = new Isotope( container, {
+    itemSelector: '.item',
+    masonry: {
+      gutter: 15
+    }
+  });
+  var imgLoad = imagesLoaded( container );
+
+  imgLoad.on( 'progress', function( instance, image ) {
+    var result = image.isLoaded ? 'loaded' : 'broken';
+    // console.log( 'image is ' + result + ' for ' + image.img.src );
+    iso.layout();
+  });
+  </script>
+        <footer class="footer">
+          <p>&copy; Maria Paiz 2014, All Rights Reserved</p>
+        </footer>
+    </div>
+  </body>
+</html>
