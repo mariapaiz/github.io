@@ -18,10 +18,14 @@
     <![endif]-->
 
     <style>
-      .header {
-        margin-bottom: 30px;
+      .navbar {
+        font-weight: bold;
+      }
+      .navbar-brand {
+        font-size: 150%;
       }
       .footer {
+        padding-top: 2em;
         padding-right: 15px;
         padding-left: 15px;
       }
@@ -29,7 +33,6 @@
         text-align: center;
         border-right: 1px solid #EEE;
       }
-
     </style>
 
 <style>
@@ -48,207 +51,271 @@
     padding: 1em;
     font-weight: bold;
     background-color: #333;
+    color: #EEE;
     background-color: rgba(0,0,0, 0.8);
-  }
-  .caption a{
-    color: white;
   }
 </style>
 
   </head>
   <body>
+    <nav class="navbar navbar-default navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Maria Paiz - Art and Character Design</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/">Home</a></li> <!-- class="active" -->
+            <li><a href="/about">About / Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
     <div class="container-fluid
 ">
         <div class="header">
-          <nav>
-            <ul class="nav nav-pills pull-right">
-              <li role="presentation"><a href="/">Home</a></li>
-              <li role="presentation"><a href="/about.html">About / Contact</a></li>
-            </ul>
-          </nav>
-          <h3 class="text-muted">Maria Paiz - Art and Character Design</h3>
+
+
         </div>
 
   <div id="grid_container">
         <div class="item">
-          <picture>
-            <!-- <source srcset="/images/dragons5-hires.jpg 2x" /> -->
-            <img src="/images/dragons5-lowres.jpg" alt="Dragon 5" />
-          </picture>
-          <span class="caption">
-            <a href="/pages/dragons5.html">Dragon 5</a>
-          </span>
-        </div>
-        <div class="item">
-          <picture>
-            <!-- <source srcset="/images/jirafaacuarela-hires.jpg 2x" /> -->
-            <img src="/images/jirafaacuarela-lowres.jpg" alt="Jirafa" />
-          </picture>
-          <span class="caption">
-            <a href="/pages/jirafaacuarela.html">Jirafa</a>
-          </span>
-        </div>
-        <div class="item">
-          <picture>
-            <!-- <source srcset="/images/rabbitcat-hires.jpg 2x" /> -->
-            <img src="/images/rabbitcat-lowres.jpg" alt="Fly with Me" />
-          </picture>
-          <span class="caption">
-            <a href="/pages/rabbitcat.html">Fly with Me</a>
-          </span>
-        </div>
-        <div class="item">
-          <picture>
-            <!-- <source srcset="/images/mapacheacrilico-hires.jpg 2x" /> -->
-            <img src="/images/mapacheacrilico-lowres.jpg" alt="Mapache" />
-          </picture>
-          <span class="caption">
-            <a href="/pages/mapacheacrilico.html">Mapache</a>
-          </span>
-        </div>
-        <div class="item">
-          <picture>
-            <!-- <source srcset="/images/mapachelapiz-hires.jpg 2x" /> -->
-            <img src="/images/mapachelapiz-lowres.jpg" alt="Raccoon Study" />
-          </picture>
-          <span class="caption">
-            <a href="/pages/mapachelapiz.html">Raccoon Study</a>
-          </span>
-        </div>
-        <div class="item">
-          <picture>
-            <!-- <source srcset="/images/mipapies-hires.jpg 2x" /> -->
-            <img src="/images/mipapies-lowres.jpg" alt="Mi Papi Es" />
-          </picture>
-          <span class="caption">
-            <a href="/pages/mipapies.html">Mi Papi Es</a>
-          </span>
-        </div>
-        <div class="item">
-          <picture>
-            <!-- <source srcset="/images/dragonashug-hires.jpg 2x" /> -->
-            <img src="/images/dragonashug-lowres.jpg" alt="Electric Hug" />
-          </picture>
-          <span class="caption">
-            <a href="/pages/dragonashug.html">Electric Hug</a>
-          </span>
-        </div>
-        <div class="item">
-          <picture>
-            <!-- <source srcset="/images/dragons2-hires.jpg 2x" /> -->
-            <img src="/images/dragons2-lowres.jpg" alt="Dragon 2" />
-          </picture>
-          <span class="caption">
-            <a href="/pages/dragons2.html">Dragon 2</a>
-          </span>
-        </div>
-        <div class="item">
-          <picture>
-            <!-- <source srcset="/images/meirenyu-hires.jpg 2x" /> -->
-            <img src="/images/meirenyu-lowres.jpg" alt="Mei Ren Yu" />
-          </picture>
-          <span class="caption">
-            <a href="/pages/meirenyu.html">Mei Ren Yu</a>
-          </span>
-        </div>
-        <div class="item">
-          <picture>
-            <!-- <source srcset="/images/desnudo-hires.jpg 2x" /> -->
-            <img src="/images/desnudo-lowres.jpg" alt="Desnudo" />
-          </picture>
-          <span class="caption">
-            <a href="/pages/desnudo.html">Desnudo</a>
-          </span>
-        </div>
-        <div class="item">
-          <picture>
-            <!-- <source srcset="/images/grannyhedgehog-hires.jpg 2x" /> -->
-            <img src="/images/grannyhedgehog-lowres.jpg" alt="Granny Hedgehog" />
-          </picture>
-          <span class="caption">
-            <a href="/pages/grannyhedgehog.html">Granny Hedgehog</a>
-          </span>
-        </div>
-        <div class="item">
-          <picture>
-            <!-- <source srcset="/images/jirafalapiz-hires.jpg 2x" /> -->
-            <img src="/images/jirafalapiz-lowres.jpg" alt="Giraffe Study" />
-          </picture>
-          <span class="caption">
-            <a href="/pages/jirafalapiz.html">Giraffe Study</a>
-          </span>
-        </div>
-        <div class="item">
-          <picture>
-            <!-- <source srcset="/images/delicia-hires.jpg 2x" /> -->
-            <img src="/images/delicia-lowres.jpg" alt="Delicia" />
-          </picture>
-          <span class="caption">
-            <a href="/pages/delicia.html">Delicia</a>
-          </span>
-        </div>
-        <div class="item">
-          <picture>
-            <!-- <source srcset="/images/ningyo-hires.jpg 2x" /> -->
-            <img src="/images/ningyo-lowres.jpg" alt="Ningyo" />
-          </picture>
-          <span class="caption">
-            <a href="/pages/ningyo.html">Ningyo</a>
-          </span>
-        </div>
-        <div class="item">
+          <a href="/pages/dragons4.html">
           <picture>
             <!-- <source srcset="/images/dragons4-hires.jpg 2x" /> -->
             <img src="/images/dragons4-lowres.jpg" alt="Dragon 4" />
           </picture>
           <span class="caption">
-            <a href="/pages/dragons4.html">Dragon 4</a>
+            Dragon 4
           </span>
+          </a>
         </div>
         <div class="item">
+          <a href="/pages/mipapies.html">
           <picture>
-            <!-- <source srcset="/images/naringi-hires.jpg 2x" /> -->
-            <img src="/images/naringi-lowres.jpg" alt="Naringi" />
+            <!-- <source srcset="/images/mipapies-hires.jpg 2x" /> -->
+            <img src="/images/mipapies-lowres.jpg" alt="Mi Papi Es" />
           </picture>
           <span class="caption">
-            <a href="/pages/naringi.html">Naringi</a>
+            Mi Papi Es
           </span>
+          </a>
         </div>
         <div class="item">
+          <a href="/pages/jirafaacuarela.html">
+          <picture>
+            <!-- <source srcset="/images/jirafaacuarela-hires.jpg 2x" /> -->
+            <img src="/images/jirafaacuarela-lowres.jpg" alt="Jirafa" />
+          </picture>
+          <span class="caption">
+            Jirafa
+          </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/ningyo.html">
+          <picture>
+            <!-- <source srcset="/images/ningyo-hires.jpg 2x" /> -->
+            <img src="/images/ningyo-lowres.jpg" alt="Ningyo" />
+          </picture>
+          <span class="caption">
+            Ningyo
+          </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/mapacheacrilico.html">
+          <picture>
+            <!-- <source srcset="/images/mapacheacrilico-hires.jpg 2x" /> -->
+            <img src="/images/mapacheacrilico-lowres.jpg" alt="Mapache" />
+          </picture>
+          <span class="caption">
+            Mapache
+          </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/meirenyu.html">
+          <picture>
+            <!-- <source srcset="/images/meirenyu-hires.jpg 2x" /> -->
+            <img src="/images/meirenyu-lowres.jpg" alt="Mei Ren Yu" />
+          </picture>
+          <span class="caption">
+            Mei Ren Yu
+          </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/dragons3.html">
           <picture>
             <!-- <source srcset="/images/dragons3-hires.jpg 2x" /> -->
             <img src="/images/dragons3-lowres.jpg" alt="Dragon 3" />
           </picture>
           <span class="caption">
-            <a href="/pages/dragons3.html">Dragon 3</a>
+            Dragon 3
           </span>
+          </a>
         </div>
         <div class="item">
+          <a href="/pages/delicia.html">
           <picture>
-            <!-- <source srcset="/images/dragons1-hires.jpg 2x" /> -->
-            <img src="/images/dragons1-lowres.jpg" alt="Dragon 1" />
+            <!-- <source srcset="/images/delicia-hires.jpg 2x" /> -->
+            <img src="/images/delicia-lowres.jpg" alt="Delicia" />
           </picture>
           <span class="caption">
-            <a href="/pages/dragons1.html">Dragon 1</a>
+            Delicia
           </span>
+          </a>
         </div>
         <div class="item">
+          <a href="/pages/dragons2.html">
           <picture>
-            <!-- <source srcset="/images/angustia-hires.jpg 2x" /> -->
-            <img src="/images/angustia-lowres.jpg" alt="Angustia" />
+            <!-- <source srcset="/images/dragons2-hires.jpg 2x" /> -->
+            <img src="/images/dragons2-lowres.jpg" alt="Dragon 2" />
           </picture>
           <span class="caption">
-            <a href="/pages/angustia.html">Angustia</a>
+            Dragon 2
           </span>
+          </a>
         </div>
         <div class="item">
+          <a href="/pages/mapachelapiz.html">
+          <picture>
+            <!-- <source srcset="/images/mapachelapiz-hires.jpg 2x" /> -->
+            <img src="/images/mapachelapiz-lowres.jpg" alt="Raccoon Study" />
+          </picture>
+          <span class="caption">
+            Raccoon Study
+          </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/pinkumbrella.html">
           <picture>
             <!-- <source srcset="/images/pinkumbrella-hires.jpg 2x" /> -->
             <img src="/images/pinkumbrella-lowres.jpg" alt="Pink Umbrella" />
           </picture>
           <span class="caption">
-            <a href="/pages/pinkumbrella.html">Pink Umbrella</a>
+            Pink Umbrella
           </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/grannyhedgehog.html">
+          <picture>
+            <!-- <source srcset="/images/grannyhedgehog-hires.jpg 2x" /> -->
+            <img src="/images/grannyhedgehog-lowres.jpg" alt="Granny Hedgehog" />
+          </picture>
+          <span class="caption">
+            Granny Hedgehog
+          </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/angustia.html">
+          <picture>
+            <!-- <source srcset="/images/angustia-hires.jpg 2x" /> -->
+            <img src="/images/angustia-lowres.jpg" alt="Angustia" />
+          </picture>
+          <span class="caption">
+            Angustia
+          </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/naringi.html">
+          <picture>
+            <!-- <source srcset="/images/naringi-hires.jpg 2x" /> -->
+            <img src="/images/naringi-lowres.jpg" alt="Naringi" />
+          </picture>
+          <span class="caption">
+            Naringi
+          </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/dragons1.html">
+          <picture>
+            <!-- <source srcset="/images/dragons1-hires.jpg 2x" /> -->
+            <img src="/images/dragons1-lowres.jpg" alt="Dragon 1" />
+          </picture>
+          <span class="caption">
+            Dragon 1
+          </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/jirafalapiz.html">
+          <picture>
+            <!-- <source srcset="/images/jirafalapiz-hires.jpg 2x" /> -->
+            <img src="/images/jirafalapiz-lowres.jpg" alt="Giraffe Study" />
+          </picture>
+          <span class="caption">
+            Giraffe Study
+          </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/desnudo.html">
+          <picture>
+            <!-- <source srcset="/images/desnudo-hires.jpg 2x" /> -->
+            <img src="/images/desnudo-lowres.jpg" alt="Desnudo" />
+          </picture>
+          <span class="caption">
+            Desnudo
+          </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/rabbitcat.html">
+          <picture>
+            <!-- <source srcset="/images/rabbitcat-hires.jpg 2x" /> -->
+            <img src="/images/rabbitcat-lowres.jpg" alt="Fly with Me" />
+          </picture>
+          <span class="caption">
+            Fly with Me
+          </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/kuxet.html">
+          <picture>
+            <!-- <source srcset="/images/kuxet-hires.jpg 2x" /> -->
+            <img src="/images/kuxet-lowres.jpg" alt="The Challenge of Kuxet" />
+          </picture>
+          <span class="caption">
+            The Challenge of Kuxet
+          </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/dragonashug.html">
+          <picture>
+            <!-- <source srcset="/images/dragonashug-hires.jpg 2x" /> -->
+            <img src="/images/dragonashug-lowres.jpg" alt="Electric Hug" />
+          </picture>
+          <span class="caption">
+            Electric Hug
+          </span>
+          </a>
+        </div>
+        <div class="item">
+          <a href="/pages/dragons5.html">
+          <picture>
+            <!-- <source srcset="/images/dragons5-hires.jpg 2x" /> -->
+            <img src="/images/dragons5-lowres.jpg" alt="Dragon 5" />
+          </picture>
+          <span class="caption">
+            Dragon 5
+          </span>
+          </a>
         </div>
   </div>
 

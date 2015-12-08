@@ -18,10 +18,14 @@
     <![endif]-->
 
     <style>
-      .header {
-        margin-bottom: 30px;
+      .navbar {
+        font-weight: bold;
+      }
+      .navbar-brand {
+        font-size: 150%;
       }
       .footer {
+        padding-top: 2em;
         padding-right: 15px;
         padding-left: 15px;
       }
@@ -29,21 +33,35 @@
         text-align: center;
         border-right: 1px solid #EEE;
       }
-
     </style>
 
 
   </head>
   <body>
+    <nav class="navbar navbar-default navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Maria Paiz - Art and Character Design</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/">Home</a></li> <!-- class="active" -->
+            <li><a href="/about">About / Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
     <div class="container">
         <div class="header">
-          <nav>
-            <ul class="nav nav-pills pull-right">
-              <li role="presentation"><a href="/">Home</a></li>
-              <li role="presentation"><a href="/about.html">About / Contact</a></li>
-            </ul>
-          </nav>
-          <h3 class="text-muted">Maria Paiz - Art and Character Design</h3>
+
+
         </div>
 
 
@@ -58,8 +76,19 @@
     </div>
     <div id="contact large" class="col-md-8">
       <p class="lead">
-        You can contact me at: <a href="mailto:hola@mariapaiz.com">hola [at] mariapaiz [dot] com </a>
-	on Twitter: <a href="https://twitter.com/maripaiz">@maripaiz</a>
+        Maria is based in Guatemala City as a UI designer by day and a freelance illustrator and character designer whenever-she-can. She studied under the direction of Thierry Lafontaine at the Imaginism In-House Workshop and with Chris Oatley from The Oatley Academy of Visual Storytelling.
+      </p>
+      <p>
+        Her first contact with the arts was at 3 years old when her father taught her to read with poetry. Still 3, she also started acting and has never left the stage since. This continued relation with the stage is what cultivated her love for storytelling and characters, coulpled with her love for reading and learning languages.
+      </p>
+      <p>
+        She has worked for Red Atoms doing character design and is currently a team member of The Oatley Academy of Visual Storytelling.
+      </p>
+      <p>
+        Brimming with energy and enthusiasm, she firmly believes in the power of hugs, a smile, and chocolate to make anyone's day brighter.
+      </p>
+      <p>
+        Contact her at: <a href="mailto:hola@mariapaiz.com">hola [at] mariapaiz [dot] com </a> and on Twitter: <a href="https://twitter.com/maripaiz">@maripaiz</a>
       </p>
     </div>
   </div>
